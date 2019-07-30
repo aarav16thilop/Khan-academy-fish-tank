@@ -1,0 +1,96 @@
+ background(89, 216, 255);
+
+var centerX = 200;
+var centerY = 100;
+var bodyLength = 118;
+var bodyHeight = 74;
+var bodyColor = color(162, 0, 255);
+
+noStroke();
+fill(bodyColor);
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/4;
+var tailHeight = bodyHeight/2;
+triangle(centerX-bodyLength/2, centerY,
+         centerX-bodyLength/2-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/2-tailWidth, centerY+tailHeight);
+// eye
+fill(33, 33, 33);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
+ var centerX = 138;
+var centerY = 245;
+var bodyLength = 174;
+var bodyHeight = 143;
+var bodyColor = color(247, 255, 0);
+
+noStroke();
+fill(bodyColor);
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/4;
+var tailHeight = bodyHeight/2;
+triangle(centerX-bodyLength/2, centerY,
+         centerX-bodyLength/2-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/2-tailWidth, centerY+tailHeight);
+// eye
+fill(33, 33, 33);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
+         
+         var centerX = 225;
+var centerY = 171;
+var bodyLength = 45;
+var bodyHeight = 25;
+var bodyColor = color(255, 38, 0);
+
+noStroke();
+fill(bodyColor);
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/4;
+var tailHeight = bodyHeight/2;
+triangle(centerX-bodyLength/2, centerY,
+         centerX-bodyLength/2-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/2-tailWidth, centerY+tailHeight);
+// eye
+fill(33, 33, 33);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
+  
+  
+  image(getImage( "cute/Rock"),3,316,43,89);
+ image(getImage( "cute/Rock"),3,284,43,89);
+                 image(getImage( "cute/Rock"),33,296,43,89);
+                 image(getImage( "cute/Rock"),47,320,43,89);
+                 image(getImage( "cute/Rock"),66,290,43,89);
+                 image(getImage( "cute/Rock"),87,324,43,89);
+                 image(getImage( "cute/Rock"),98,293,43,89);
+                 image(getImage( "cute/Rock"),137,285,43,89);
+                 image(getImage( "cute/Rock"),121,318,43,89);
+                 image(getImage( "cute/Rock"),155,319,43,89);
+                 image(getImage( "cute/Rock"),172,287,43,89);
+                 image(getImage( "cute/Rock"),196,319,43,89);
+                   image(getImage( "cute/Rock"),225,319,43,89);
+                 image(getImage( "cute/Rock"),204,287,43,89);
+                 image(getImage( "cute/Rock"),196,307,43,89);
+                                 image(getImage( "cute/Rock"),155,319,44,89);
+                 image(getImage( "cute/Rock"),231,294,43,89);
+                 image(getImage( "cute/Rock"),262,316,43,89);
+                    image(getImage( "cute/Rock"),257,295,43,89);                            
+          image(getImage( "cute/Rock"),296,316,43,89);
+           image(getImage( "cute/Rock"),292,286,43,89);
+            image(getImage( "cute/Rock"),321,320,43,89);
+             image(getImage( "cute/Rock"),321,278,43,89);
+              image(getImage( "cute/Rock"),350,287,43,89);
+               image(getImage( "cute/Rock"),361,320,43,89);
+               image(getImage("cute/ChestOpen"),194,266,133,131);
+               image(getImage("cute/GemBlue"),270,299,40,40);
+image(getImage("cute/GemOrange"),204,326,40,40);
+image(getImage("cute/GemGreen"),205,299,40,40);
+image(getImage("cute/GemOrange"),243,298,40,40);
+image(getImage("cute/GemBlue"),279,319,40,40);
+image(getImage("cute/GemGreen"),245,319,40,40);
+rotate(176);
+image(getImage("cute/Key"),-353,-438,45,83);
